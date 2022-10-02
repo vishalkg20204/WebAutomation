@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="29.16">
+<testcase classname="TV Home Page" name="Amazon | Select the second highest Samsung TV and verify it's description." time="29.024">
+<system-out><![CDATA[Given navigate to Tv Page...................................................passed
+Then scroll down the page to Brand filter...................................passed
+And select Samsung as brand.................................................passed
+Then sort By High to Low option and verify if sorting done..................passed
+Then click on second item and verify it's description.......................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,111 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-02T11:55:12.486Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4066000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "support.BrowserCreation.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Amazon | Select the second highest Samsung TV and verify it\u0027s description.",
+        "description": "",
+        "id": "tv-home-page;amazon-|-select-the-second-highest-samsung-tv-and-verify-it-s-description.",
+        "after": [
+          {
+            "result": {
+              "duration": 973000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "support.BrowserCreation.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5489000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "navigate to Tv Page",
+            "match": {
+              "location": "stepDefinitions.Home.TVHomePage_Steps.navigateToTvPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6125000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "scroll down the page to Brand filter",
+            "match": {
+              "location": "stepDefinitions.Home.TVHomePage_Steps.scrollDownThePageToBrandFilter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1711000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "select Samsung as brand",
+            "match": {
+              "location": "stepDefinitions.Home.TVHomePage_Steps.selectSamsungAsBrand()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1862000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "sort By High to Low option and verify if sorting done",
+            "match": {
+              "location": "stepDefinitions.Home.TVHomePage_Steps.sortByHighToLowOptionAndVerifyIfSortingDone()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8710000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on second item and verify it\u0027s description.",
+            "match": {
+              "location": "stepDefinitions.Home.TVHomePage_Steps.clickOnSecondItemAndVerifyItSDescription()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "TV Home Page",
+    "description": "",
+    "id": "tv-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Home/TVHomePage.feature",
+    "tags": []
+  }
+]
